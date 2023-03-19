@@ -130,9 +130,19 @@ img {
 
  /* First solution:
  Make website desktop responsive */
- 
+
  @media screen and (max-width: 1140px) {
     .container {
         width: 100%;
+    }
+}
+
+ /* Second solution:
+ Make website desktop responsive */
+
+ @media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin:0;
     }
 }
