@@ -127,3 +127,12 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ /* First solution:
+ Make website desktop responsive */
+ 
+ @media screen and (max-width: 1140px) {
+    .container {
+        width: 100%;
+    }
+}
